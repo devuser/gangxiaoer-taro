@@ -3,3 +3,6 @@ dist/
 .rn_temp/
 node_modules/
 .DS_Store
+package.json-stable
+yarn-error.log
+yarn.lock
