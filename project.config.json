@@ -1,0 +1,16 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "gangxiaoer-taro-v2",
+	"description": "服务于机械加工行业，钢材流通领域，相关上下游供应链；努力提升行业效率；在线视听课程；行业标准解读；行业资讯和价格指数；从业人员周边生态。",
+	"appid": "wxdccc3a094de0e910",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.3",
+	"condition": {}
+}

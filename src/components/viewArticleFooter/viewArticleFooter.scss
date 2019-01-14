@@ -1,0 +1,276 @@
+@import "../../assets/scss/variables";
+// @import "../../../node-modules/taro-ui/dist/h5/css/index.css";
+@import "../../pages/common/css/base.scss";
+
+.#{$prefix} {
+
+  &-index-wrap {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+
+    .index {
+      border:2rpx;
+      align-content: center;
+      border-width: 2rpx;
+      border-color: #666;
+      &-topbar {
+        padding: 10rpx 50rpx;
+        text-align: center;
+        font-weight: bold;
+
+        Text {
+          color: rgb(248, 122, 3);
+          font-size: 40rpx;
+        }
+
+        View {
+          color: #333;
+          font-size: 30rpx;
+        }
+      }
+      &-banner{
+        width: 100%;
+        height: 50%;
+        white-space: nowrap;
+
+        border: 2rpx;
+        align-content: center;
+      }
+
+      &-card{
+        width: 100%;
+        white-space: nowrap;
+        display: flex;
+        border: 2rpx;
+      }
+
+      &-list {
+        padding: 50rpx;
+      }
+
+      &-li {
+        box-shadow: 0 4rpx 20rpx rgba($color: #000000, $alpha: 0.1);
+        margin-bottom: 50rpx;
+        border-radius: 8rpx;
+        overflow: hidden;
+      }
+
+      &-bg {
+        width: 100%;
+        height: 300rpx;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        background-color: #f5f5f5;
+      }
+
+      &-info {
+        padding: 15rpx;
+      }
+
+      &-title {
+        font-size: 30rpx;
+        font-weight: bold;
+        margin-bottom: 10rpx;
+      }
+
+      &-des {
+        font-size: 26rpx;
+        color: #666;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+.cityName{
+  display: flex;
+  font-size: 32rpx;
+  font-style: normal;
+}
+.search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 25rpx 0 10rpx;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  background: #fff;
+
+  div:nth-child(1) {
+    width: 115rpx;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 20rpx;
+    padding-right: 15rpx;
+  }
+
+  div:nth-child(2) {
+    flex: 1;
+    position: relative;
+
+    input {
+      width: 100%;
+      height: 56rpx;
+      border-radius: 8rpx;
+      background: #ededed;
+      box-sizing: border-box;
+      padding-left: 40rpx;
+    }
+
+    .icon {
+      position: absolute;
+      top: 15rpx;
+      left: 10rpx;
+      background: url('https://coms.boyosoft.net/gangxiaoer/gapi/v2/images/search2-2fb94833aa.png') center no-repeat;
+      background-size: 100%;
+      width: 28rpx;
+      height: 28rpx;
+      margin-right: 10rpx;
+    }
+  }
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickName {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 150px;
+}
+
+.form-control {
+  display: block;
+  padding: 0 14px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+}
+
+.counter {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 5px 10px;
+  color: blue;
+  border: 1px solid blue;
+}
+
+.container {
+  flex: 1;
+}
+
+
+/*第二功能模块*/
+
+.section-two {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+
+/*轮播图导航 */
+
+.tab {
+  width: 100%;
+  height: 90rpx;
+  box-sizing: border-box;
+  padding: 20rpx 0 20rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #ebebeb;
+}
+
+.nav {
+  text-align: center;
+  flex: 1;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.nav:nth-of-type(odd) {
+  border-left: 1rpx solid #ebebeb;
+  border-right: 1rpx solid #ebebeb;
+}
+
+.nav.active {
+  color: #16cc80;
+}
+
+
+/*轮播图内容*/
+
+.cont {
+  width: 100%;
+  height: 520rpx;
+  padding-top: 25rpx;
+  font-size: 28rpx;
+  display: 'flex';
+}
+
+/* .cont swiper-item {
+  width: auto;
+  height: 100%;
+  background-color: #5fd9a6;
+  border: 1rpx solid #ebebeb;
+  text-align: center;
+  font-size: 50rpx;
+  box-sizing: border-box;
+} */
+
+.message {
+  color: red;
+  padding: 10px;
+  text-align: center;
+}
+.main-van-tabbar{
+  /* padding-top: 25rpx; */
+  align-items: center;
+  background-color: #5fd9a6;
+  border-bottom: 1rpx solid #ebebeb;
+  border: 1rpx solid #ebebeb;
+  box-sizing: border-box;
+  display: flex;
+  height: auto;
+  /* padding: 20rpx 0 20rpx; */
+  width: auto;
+  /* top: 20rpx; */
+}
+.article-container{
+  width: 100%;
+  white-space: nowrap;
+  display: flex;
+  border: 2rpx;
+}
+.divLine{
+  background: #fffff0;
+  width: 100%;
+  height: 8rpx;
+}
+
+.container {
+  padding: 10px 15px;
+}

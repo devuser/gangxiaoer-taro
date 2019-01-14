@@ -1,0 +1,25 @@
+@import "~taro-ui/dist/components/flex/index.scss";
+@import "~taro-ui/dist/components/flex/item/index.scss";
+@import "../../assets/scss/variables";
+// @import "../../../node-modules/taro-ui/dist/h5/css/index.css";
+@import "../common/css/base.scss";
+
+
+.#{$prefix} {
+
+  &-viewArticle-wrap {
+    width: 100%;
+    min-height: 100vh;
+  }
+&-index{
+
+
+    &-banner{
+    width: 100%;
+    height: 50%;
+    white-space: nowrap;
+    display: flex;
+    border: 2rpx;
+  }
+}
+}

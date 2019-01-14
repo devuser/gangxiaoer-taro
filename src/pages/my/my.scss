@@ -1,0 +1,9 @@
+@import "../../assets/scss/variables";
+
+.#{$prefix} {
+
+  &-my-wrap {
+    width: 100%;
+    min-height: 100vh;
+  }
+}

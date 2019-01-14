@@ -1,0 +1,9 @@
+@import "../../assets/scss/variables";
+
+.#{$prefix} {
+
+  &-login-wrap {
+    width: 100%;
+    min-height: 100vh;
+  }
+}
