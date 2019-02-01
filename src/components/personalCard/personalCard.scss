@@ -1,0 +1,18 @@
+@import "../../assets/scss/variables";
+
+.#{$prefix} {
+
+  &-personalCard-wrap {
+    width: 90%;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    padding: 10px;
+    padding-left: 50px;
+    min-height: 300px;
+    background-color: burlywood;
+    border-width: 4px;
+    border-radius: 20px;
+    border-color: aquamarine;
+  }
+}

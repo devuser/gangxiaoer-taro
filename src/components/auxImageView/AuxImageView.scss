@@ -1,0 +1,11 @@
+@import "../../assets/scss/variables";
+.#{$prefix} {
+    &-AuxImageView-wrap {
+        width: 100%;
+
+        // 自适应图片
+        &-auto-img {
+            width: 100%;
+        }
+    }
+}
